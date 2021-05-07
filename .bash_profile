@@ -10,3 +10,10 @@ function empty() {
     [Yy]* ) rm -ir ~/.Trash; mkdir -p ~/.Trash; echo "trash emptied successfully";
   esac
 }
+
+function emptynow() {
+  read -p "empty the trash? " input
+  case $input in
+    [Yy]* ) rm -r ~/.Trash; mkdir -p ~/.Trash; echo "trash emptied successfully";
+  esac
+}
