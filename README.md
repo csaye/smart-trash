@@ -6,7 +6,7 @@ A better trash system.
 
 ### trash
 
-Moves given file to `~/.Trash`
+Moves given file to `~/.Trash`.
 
 ```
 trash <path>
@@ -16,6 +16,8 @@ trash <path>
 
 Empties trash, prompting the user to verify the deletion of each item.
 
+Use `--now` to delete without prompting.
+
 ```
-empty
+empty [--now]
 ```
