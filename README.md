@@ -1,4 +1,4 @@
-# Smart Trash
+# Trash
 
 A command-line trash system.
 
