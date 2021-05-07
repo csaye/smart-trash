@@ -1,12 +1,12 @@
 # Smart Trash
 
-A better trash system.
+A command-line trash system.
 
 ## Commands
 
 ### trash
 
-Moves given file to `~/.Trash`.
+Moves given item to `~/.Trash`.
 
 ```
 trash <path>
@@ -21,3 +21,11 @@ Use `--now` to delete without prompting.
 ```
 empty [--now]
 ```
+
+## Usage
+
+Copy and paste the functions from [.bash_profile](.bash_profile) into a file named `.bash_profile` within your home directory.
+
+The functions should be registered as aliases and be ready to use.
+
+If at any point you would like to remove the functions, simply remove them from `.bash_profile`.
